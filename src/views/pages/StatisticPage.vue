@@ -10,6 +10,7 @@
     <number-doughnut-chart/>
     <top-3/>
     <bar-pulau-jawa/>
+    <go-to-data/>
     <Footer/>
     <copyright/>
   </div>
@@ -19,6 +20,7 @@
 import Number from '../../components/StatisticNumber.vue'
 import Top3 from'../../components/StatisticTop3.vue'
 import BarPulauJawa from '../../components/StatisticKasusDiPulauJawa.vue'
+import GoToData from '../../components/StatisticGoToData.vue'
 import Footer from '../../components/Footer.vue'
 import Copyright from '../../components/Copyright.vue'
 import NumberDoughnutChart from '../../components/StatisticNumberDoughnut.vue'
@@ -28,6 +30,7 @@ export default {
     NumberDoughnutChart,
     Top3,
     BarPulauJawa,
+    GoToData,
     Footer,
     Copyright
   }

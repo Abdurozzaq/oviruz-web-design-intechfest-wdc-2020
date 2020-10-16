@@ -2,14 +2,14 @@
   <div class="bg-color-goto-statistic py-3">
     <b-row align-v="start" align-h="center" class="mx-0">
       <b-col cols="2">
-        <b-img data-aos="zoom-in" src="../assets/tabletStatistic.png" fluid alt="Statistik Covid-19" class="pt-2 pb-3"></b-img>
+        <b-img data-aos="zoom-in" src="../assets/datasource.png" fluid alt="Sumber Data Covid-19 Indonesia" class="pt-2 pb-3"></b-img>
       </b-col>
     </b-row>
 
     <b-row align-v="start" align-h="center" class="mx-0">
       <b-col cols="12" class="text-center">
-        <h3 data-aos="zoom-in" class="text-center header-color mx-1 robotofont">Mau Tau Statistik Penyebaran Covid-19 di Indonesia?</h3>
-        <b-button data-aos="zoom-in" @click.prevent="goToStatistic" pill class="button-redirect-statistic border-0 shadow robotofont mb-3 mt-2">Klik Disini Untuk Melihat!</b-button>
+        <h3 data-aos="zoom-in" class="text-center header-color mx-1 robotofont">Untuk Data Realtime Dan Langsung Dari Pemerintah, Klik Di Bawah Ini...</h3>
+        <b-button data-aos="zoom-in" @click.prevent="goToData" pill class="button-redirect-statistic border-0 shadow robotofont mb-3 mt-2">Klik Disini Untuk Melihat!</b-button>
       </b-col>
     </b-row>
   </div>
@@ -24,10 +24,8 @@ export default {
   }, // end of data
 
   methods: {
-    goToStatistic: function() {
-      let currentObj = this
-
-      currentObj.$router.push('/pages/statistic')
+    goToData: function() {
+      window.open("https://covid19.go.id/peta-sebaran", "_blank"); 
     }
   }
 }
