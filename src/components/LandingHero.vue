@@ -30,8 +30,8 @@
         </b-col>
 
         <b-col cols="12" cols-md="8" cols-xl="10">
-          <h2 class="text-color-nya robotofont">Selamat Datang <br> di Oviruz</h2>
-          <h4 class="text-color-nya robotofont">Berita dan Info Covid-19</h4>
+          <h2 data-aos="zoom-in" class="text-color-nya robotofont">Selamat Datang <br> di Oviruz</h2>
+          <h4 data-aos="zoom-in" class="text-color-nya robotofont">Berita dan Info Covid-19</h4>
         </b-col>
       </b-row>
     </div>
