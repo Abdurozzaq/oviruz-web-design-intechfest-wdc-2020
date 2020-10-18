@@ -2,7 +2,7 @@
   <div class="bg-color-cegah py-5">
     <b-container>
       <b-row align-v="start" align-h="center" class="mx-0">
-        <b-col cols="4">
+        <b-col cols="12" sm="12" md="6" lg="4">
           <b-img data-aos="zoom-in" src="../assets/defensecovid.png" fluid alt="Cegah Covid-19" class="pt-2 pb-3 pr-0"></b-img>
         </b-col>
       </b-row>
