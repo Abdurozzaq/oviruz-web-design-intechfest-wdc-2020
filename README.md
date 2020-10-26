@@ -1,6 +1,10 @@
 # Oviruz
 ```
+Github Project :
 https://github.com/Abdurozzaq/oviruz-web-design-intechfest-wdc-2020
+
+Sudah di Deploy di vercel:
+https://oviruz-ozzaq.vercel.app/
 ```
 
 ### Project Ini Dibuat untuk di kompetisikan di IntechFest 2020 WDC
